@@ -328,9 +328,19 @@ const Index = () => {
             <div>
               <h3 className="font-bold text-lg mb-4">Контакты</h3>
               <div className="space-y-2 text-white/70">
-                <p>Республика Карелия</p>
-                <p>Телефон: +7 (XXX) XXX-XX-XX</p>
-                <p>Email: info@kareliaplit.ru</p>
+                <div className="space-y-1">
+                  <p className="text-white font-semibold">Телефоны офиса:</p>
+                  <p>+7 (8142) 59-30-68</p>
+                  <p>+7 (8142) 59-30-67</p>
+                </div>
+                <div className="space-y-1 pt-2">
+                  <p className="text-white font-semibold">Мобильный:</p>
+                  <p>+7 911 400-23-83</p>
+                </div>
+                <div className="space-y-1 pt-2">
+                  <p className="text-white font-semibold">Адрес:</p>
+                  <p>Коммунистов 50, стр 5/6</p>
+                </div>
               </div>
             </div>
             <div>
