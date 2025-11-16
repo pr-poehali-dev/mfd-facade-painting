@@ -191,6 +191,23 @@ const Index = () => {
               <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
                 Наши услуги
               </h2>
+              
+              <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-lg mb-6">
+                <h3 className="text-2xl font-bold text-foreground mb-3">
+                  Крашенные фасады матовые
+                </h3>
+                <div className="space-y-2 text-foreground">
+                  <p className="flex items-center gap-2">
+                    <Icon name="Palette" size={20} className="text-primary" />
+                    <span>По каталогам: <strong>RAL / WOOD COLOR / NCS / RENNER</strong></span>
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <Icon name="Clock" size={20} className="text-primary" />
+                    <span>Срок изготовления: <strong>15 дней</strong></span>
+                  </p>
+                </div>
+              </div>
+
               <ul className="space-y-4">
                 {[
                   'Покраска мебельных фасадов из МДФ',
